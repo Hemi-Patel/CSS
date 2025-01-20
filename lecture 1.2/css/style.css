@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container
+{
+    width: 1140px;
+    height: 1140px;
+
+}
+.box
+{
+    height: 500px;
+    width: 500px;
+    object-fit: cover;
+    object-position: 0%;
+    background-color: blueviolet;
+    background-blend-mode: exclusion;
+
+    background-image:url('../image/pexels-photo-1133957.webp');
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,49 @@
+
+.card
+{
+    position: relative;
+    height:800px;
+    width :800px; 
+    background-color: pink;
+    margin:100px auto;
+   
+
+}   
+.card .box
+{   float:left;
+    background-color: blue;
+    width: 100px;
+    height:100px;
+    margin:20px;
+    border-radius: 50%;
+    text-align: center;
+    
+}
+.card .box:first-child
+{ 
+    position: absolute; 
+    top:10px;
+}
+.card .box:last-child{
+    position: absolute; 
+    bottom:10px;
+}
+.card .box:nth-child(2){
+    position: absolute; 
+    top:10px;
+    right:10px;
+}
+.card .box:nth-child(3){
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+.card .box:nth-child(4){
+    position: absolute; 
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+

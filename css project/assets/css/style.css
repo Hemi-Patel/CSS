@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.col-1
+{
+    width: 8.33%;
+}
+.col-2
+{
+    width:16.66%;
+}
+.col-3
+{
+    width:25%
+}
+.col-4
+{
+    width: 33.33%;
+}
+.col-5
+{
+    width:41.66%;
+}
+.col-6
+{
+    width:50%
+}
+.col-7
+{
+    width: 58.33%;
+}
+.col-8
+{
+    width:66.66%;
+}
+.col-9
+{
+    width:75%
+}
+.col-10
+{
+    width: 83.33%;
+}
+.col-11
+{
+    width:91.66%;
+}
+.col-12
+{
+    width:100%
+}
+.col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12{
+    padding: 0 12px;}
+img
+{
+    max-width: 100%;
+    display: block;
+}
+ul, li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.row
+{
+    display: flex;
+    flex-direction: row;
+}
+.d-flex
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.justify-center
+{
+    justify-content: center;
+}
+.justify-end
+{
+    justify-content: flex-end;
+}
+.align-center
+{
+    align-items: center;
+}
+
+
+:root {
+    --font-family: kanit;
+    --fs14: 14px;
+    --fs16: 16px;
+    --fs18: 18px;
+    --fs24: 24px;
+    --fs60: 60px;
+    --fw400: 400;
+    --fw500: 500;
+    --fw600: 600;
+    --fw700: 700;
+    --fw800: 800;
+    --fw900: 900;
+    --primary-color: #c0aa83;
+    --secondary-color: #242424;
+    --white-color: #fff;
+    
+}
+
+body {
+    font-family: var(--font-family);
+    font-size: var(--fs14);
+}
+/* header start */
+header
+{
+    background-color: var(--secondary-color);
+    width: 100%;
+    padding: 12px 0;
+    
+}
+.container
+{
+    max-width: 1570px;
+    padding:0 12px;
+    margin: 0 auto;
+}
+header .menu ul li:first-child a{
+    color: var(--primary-color);
+}
+header .menu ul li a{
+    font-size: var(--fs18);
+    color: var(--white-color);
+    padding-left: 20px;
+    font-weight: var(--fw600);
+    transition: 0.5s;
+}
+
+header .menu ul li a i
+{
+    font-size: var(--fs14);
+    margin-left: 2px;
+}
+header .menu ul li a:hover 
+{
+    color: var(--primary-color);
+    transition: 0.5s;
+}
+header .menu ul li a:hover i
+{
+    color: var(--primary-color);
+    transform: rotate(90deg);
+}
+header .menu ul li:last-child a i
+{
+    transform: rotate(0deg);
+}
+header .menu ul li:nth-last-child(2) a i
+{
+    transform: rotate(0deg);
+    padding-left: 40px;
+}
+/* header end */
