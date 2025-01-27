@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.col-1
+{
+    width: 8.33%;
+}
+.col-2
+{
+    width: 16.66%;
+}
+.col-3
+{
+    width: 25%;
+}
+.col-4
+{
+    width: 33.33%;
+}
+.col-5
+{
+    width: 41.66%;
+}
+.col-6
+{
+    width: 50%;
+}
+.col-7
+{
+    width: 58.33%;
+}
+.col-8
+{
+    width: 66.66%;
+}
+.col-9
+{
+    width: 75%;
+}
+.col-10
+{
+    width: 83.33%;
+}
+.col-11
+{
+    width: 91.66%;
+}
+.col-12
+{
+    width: 100%;
+}
+.col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9.col-10.col-11.col-12{
+    margin:0 20px;
+}
+
+.conatiner {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.d-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.justify-center {
+    justify-content: center;
+}
+a {
+    text-decoration: none;
+}
+
+ul,
+li {
+    list-style-type: none;
+}
+body{
+    font-family: Roboto, sans-serif;
+}
+/* header end  */
+header {
+    background-color: rgb(61, 60, 60);
+    padding: 30px 30px;
+}
+
+header .menu ul li a
+{
+    color: white;
+    font-size: 16px;
+   
+    padding-right: 30px;
+    display: block;
+    position: relative;
+}
+header .menu ul li a:hover{
+    color: orange;
+    text-decoration: underline;
+
+}
+header .menu ul li .dropdown{
+    position: absolute;
+    background-color: rgb(85, 84, 84);
+    visibility: hidden;
+    top:100px;
+    
+}
+
+header .menu ul li:hover .dropdown li a{
+    color: white;
+    background-color: rgb(57, 57, 57);
+    padding-top: 20px;
+    visibility: visible;
+
+}
+
+
+header .icon ul li a
+{
+    display: block;
+    transition: 0.5s;
+}
+header .icon ul li a i{
+    background-color: orange;
+    margin-right: 15px;
+    padding:10px;
+    font-size: 16px;
+
+}
+header .icon ul li a:hover i
+{
+    transform: scale(1.2);
+}
+
+ /* header end  */
+/* footer start  */
+footer{
+    margin-top:100px;
+    background-color: black;
+    color: white;
+    padding: 50px;
+}
+footer .form h3
+{
+    font-size: 30px;
+    padding-bottom: 10px;
+
+}
+footer .form p
+{
+    font-size: 16px;
+    padding-bottom: 10px;
+   
+}
+footer .form input
+{
+    padding: 10px 30px;
+}
+
+footer .form a i
+{
+    padding:12px;
+    color: black;
+    background-color: orange;
+    border: 1px solid black ;
+    
+}
+footer .form a:hover{
+    background-color: white;
+}
+footer .form form
+{
+ padding-bottom: 20px;   
+}
+
+footer .icon  i{
+    background-color: orange;
+    margin: 15px;
+    padding:10px;
+    font-size: 16px;
+    transition: 0.5s;
+
+}
+footer .icon i:hover 
+{
+    transform: scale(1.2);
+}
+/* footer end  */
