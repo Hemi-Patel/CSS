@@ -316,11 +316,48 @@ header .header-menu .icon ul li a i {
 /* image start  */
 .image
 {
-    margin: 50px;
-    position: relative;
+    margin: 50px 0;
+    
 }
-.image .card img:hover
+.image .card
 {
-    opacity: 0.2;
+    overflow: hidden;
+    
+}
+.image .card .info 
+{
+   transition: 0.2s;
+   position: relative;
+   width: 100%;
+}
+.image .card .info h3 a
+{
+    position: absolute;
+    /* background-color:#f9734294;
+    visibility: hidden;
+    transform: translateY(50%);
+    transition: 0.2s;
+    overflow:  hidden;
+    text-align: center;
+    text-wrap: wrap;
+    font-weight: var(--fw600);
+    box-sizing: border-box;
+    color: var(--secondary-color);
+    font-size: var(--fs24); */
+}
+.image .card .info:hover h3 a
+{
+    visibility: visible;
 }
 /* image end */
+/* product start */
+.product
+{
+    margin-top: 20px;
+    padding:0 0px;
+}
+.product .title h2 
+{
+    text-align: center;
+}
+/* product end */
